@@ -224,6 +224,11 @@ body.noscroll
 	font-size: 12px;
 	background-color: #fff;
 }
+
+.font{
+	font-family: 'Raleway', sans-serif;
+}
+
 @media screen and (min-width: 300px) and (max-width: 1000px) {
 	
 	#name{
@@ -238,17 +243,21 @@ body.noscroll
 	#pitch{
 		text-align: left;
 		font-size: 17px;
+		color:#fff;
 	}
 
 	#dream{
 		text-align: left;
 		font-size: 17px;
+		color:#fff;
+
 	}
 
 	#others{
 		text-align: left;
 		font-style: italic;
 		font-size: 15px;
+		color:#fff;
 	}
 }
 
@@ -266,17 +275,21 @@ body.noscroll
 	#pitch{
 		text-align: left;
 		font-size: 20px;
+		color:#fff;
+		text-indent : 40px;
 	}
 
 	#dream{
 		text-align: left;
 		font-size: 20px;
+		color:#fff;
 	}
 
 	#others{
 		text-align: left;
 		font-style: italic;
 		font-size: 15px;
+		color:#fff;
 	}
 
 	#techsentence{
@@ -285,7 +298,7 @@ body.noscroll
 
 	#tpara{
 		color:#fff;
-		font-size: 35px;
+		font-size: 25px;
 		margin: 0;
 		padding: 0;
 	}
