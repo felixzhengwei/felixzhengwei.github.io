@@ -105,13 +105,27 @@ body.noscroll
 .cd-fixed-bg{
 	color:#e5eacc;
 	text-align: center;
-	vertical-align: middle;
-  	
   	background-size: cover;
-  	background-attachment: fixed;
-  	background-position: center center;
-  	display:table-cell;
-  	vertical-align: middle;
+ 	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+  	background-position: center center; 
+}
+
+.cd-fixed-bg p {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 }
 
 .cd-bg-1{
