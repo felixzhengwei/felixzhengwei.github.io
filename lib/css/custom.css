@@ -165,6 +165,7 @@ body.noscroll
 .picrow{
 	display:inline-block;
 }
+
 .profiletext{
 	text-align: center;
 }
@@ -179,12 +180,16 @@ body.noscroll
 	-webkit-transition: background-color 0.3s ease-in-out;
 	-moz-transition: background-color 0.3s ease-in-out;
 }
+
 .propicdiv{
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
 }
 
+#picture{
+	margin: 0 auto;
+}
 .propic{
 	background-color: #000;
 }
@@ -258,10 +263,10 @@ body.noscroll
 }
 
 #world { 
+	text-align: center;
     transform-style: preserve-3d;
-
-
 }
+
 @media screen and (min-width: 300px) and (max-width: 1000px) {
 	
 	#name{
@@ -292,6 +297,27 @@ body.noscroll
 		font-size: 15px;
 		color:#fff;
 	}
+
+	#techsentence{
+		font-size: 20px;
+	}
+
+	#tpara{
+		color:#fff;
+		font-size: 15px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#desbook{
+		color:#000;
+		font-size: 30px;
+	}
+
+	.connectcontain a{
+	padding-right:0px;
+	padding-left:0px;
+}
 }
 
 @media screen and (min-width: 1000px) {
