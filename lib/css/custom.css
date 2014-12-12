@@ -13,19 +13,25 @@ body.noscroll
     width: 100%;
 }
 
-/*#open{
-	position: absolute;
+#open{
+	position: fixed;
+	height:100%;
+	width: 100%;
 	top:0;
-	background: url("../pics/camera.png");
-	background-position: center center;
+	background-color: #000;
+	text-align: center;
 	vertical-align: middle;
-	transition: height 0.5s ease-in-out;
-	-webkit-transition: height 0.5s ease-in-out;
-	-moz-transition: height 0.5s ease-in-out;
 	z-index: 10000;
+	display: table-cell;
 }
 
-#text{
+#loading{
+	position: absolute;
+	bottom:0;
+	right: 0;
+}
+
+/*#text{
 	left:15%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 60px;
