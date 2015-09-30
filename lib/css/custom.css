@@ -312,7 +312,7 @@ body.noscroll
 #techsentence{
 	padding-top: 4%;
 	padding-bottom: 2%;
-	font-weight: 100;
+	font-size: 25px;
 }    
 .box {
       float: left;
@@ -439,7 +439,7 @@ body.noscroll
 	}
 
 	#techsentence{
-		font-size: 15px;
+		font-size: 25px;
 	}
 
 	#tpara{
@@ -491,7 +491,7 @@ body.noscroll
 	}
 
 	#techsentence{
-		font-size: 15px;
+		font-size: 25px;
 	}
 
 	#tpara{
