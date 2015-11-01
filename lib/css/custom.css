@@ -181,7 +181,7 @@ body.noscroll
 	display: table;
 	/*background-color: #dbdfdf;*/
 	/*background-color: #212121;*/
-	background-color: #663300;
+	background-color: #000;
 	background-size: cover;
 	background-position: center center;
 	text-align: center;
@@ -192,6 +192,7 @@ body.noscroll
 
 #techsentence{
 	color:#fff;
+	
 }
 .propicdiv{
 	display: table-cell;
@@ -313,6 +314,7 @@ body.noscroll
 	padding-top: 4%;
 	padding-bottom: 2%;
 	font-size: 25px;
+	font-family: 'Poiret One', cursive;
 }    
 .box {
       float: left;
@@ -339,6 +341,7 @@ body.noscroll
     width: 100%;
     max-width: none;
     overflow: hidden;
+    border: #fff 1px solid;
     }
 
 
