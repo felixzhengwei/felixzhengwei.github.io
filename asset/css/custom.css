@@ -196,6 +196,10 @@ html, body{
 	margin-bottom: 5%;
 }
 
+.bolding{
+	font-weight: bolder;
+	font-size: 105%;
+}
 .titleBox{
 	direction: none;
 	text-align: center;
@@ -231,7 +235,7 @@ html, body{
 	/*border-bottom: 1px solid #000;*/
 }
 
-.titleBox > a > div > p > span{
+.titleBox > a > div > p > .underline{
 	font-size: 120%;
 	border-bottom: 1px solid #000;
 }
