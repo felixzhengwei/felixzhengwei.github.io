@@ -42,7 +42,7 @@ html, body{
 }
 
 #two{
-	background-image: url(../lib/pics/cityOne.jpg);
+	background-image: url(../lib/pics/cityOne.png);
 	background-size: cover;
 	background-position: center bottom;
 	background-repeat: no-repeat;
@@ -50,7 +50,7 @@ html, body{
 }
 
 #three{
-	background-image: url(../lib/pics/cityTwo.jpg);
+	background-image: url(../lib/pics/cityTwo.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
