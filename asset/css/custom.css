@@ -31,7 +31,7 @@ html, body{
 }
 
 #one{
-	background-image:url(../lib/pics/notes.png);
+	background-image:url(../lib/pics/pen2.png);
 	background-color: #F2EDE9;
 	background-size: cover;
 	background-position: center center;
@@ -148,6 +148,12 @@ html, body{
 	margin-left: auto;
 }
 
+.intro-small-font{
+	font-size: 115%;
+	text-align: left;
+	/*font-family: 'Quicksand', sans-serif;	*/
+	margin: 10%;
+}
 
 .intro{
 	font-size: 130%;
@@ -155,6 +161,12 @@ html, body{
 	/*font-family: 'Quicksand', sans-serif;	*/
 	margin: 10%;
 	/*margin-left: 0;*/
+}
+
+#experience{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
 }
 
 .larger{
