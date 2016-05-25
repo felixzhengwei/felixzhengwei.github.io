@@ -46,6 +46,6 @@ $(document).ready(function()
         	content.css('margin-top',0 + 'px');
         }
 	}
-	setTimeout(function(){ $(".loading").css("display", "none"); }, 2000);
+	setTimeout(function(){ $(".loading").css("display", "none"); }, 2500);
 	
 })
